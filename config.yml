@@ -5,12 +5,13 @@ bot:
   PREFIX: '?'
   EMBED_COLOR: '#ff0000'
   OWNERS: ['870179991462236170']
-  MONGO: ''
+  clientID: "1343209420875894825"
+  MONGO: 'mongodb+srv://CodeXDev:CodeX007@codex-public.lo930xf.mongodb.net/?retryWrites=true&w=majority'
   SpotifyID: "a0a7a53e627b4128a4431f20f55f5e9c"
   SpotifySecret: "e7e6a3eb85e54c7d9194ec35e35cf8af"
   SearchPlatform: "soundcloud"    
   AggregatedSearchOrder: ["soundcloud", "spotify", "apple", "deezer"]
-  nodes: [{host: "lava4.horizxon.studio",port: parseInt("80"),password: "horizxon.studio",secure: parseBoolean("false"),}]   
+  nodes: [{host: "lava-v3.ajieblogs.eu.org",port: parseInt("443"),password: "https://dsc.gg/ajidevserver",secure: parseBoolean("true"),}]   
 links:    
   INVITE: 'https://discord.com/oauth2/authorize?client_id=0000000000&permissions=8&scope=applications.commands%20bot'
   SUPPORT: 'https://dsc.gg/codexdev'
