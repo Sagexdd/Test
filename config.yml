@@ -6,7 +6,12 @@ bot:
   EMBED_COLOR: '#ff0000'
   OWNERS: ['870179991462236170']
   MONGO: ''
-links:
+  SpotifyID: "a0a7a53e627b4128a4431f20f55f5e9c"
+  SpotifySecret: "e7e6a3eb85e54c7d9194ec35e35cf8af"
+  SearchPlatform: "soundcloud"    
+  AggregatedSearchOrder: ["soundcloud", "spotify", "apple", "deezer"]
+  nodes: [{host: "lava4.horizxon.studio",port: parseInt("80"),password: "horizxon.studio",secure: parseBoolean("false"),}]   
+links:    
   INVITE: 'https://discord.com/oauth2/authorize?client_id=0000000000&permissions=8&scope=applications.commands%20bot'
   SUPPORT: 'https://dsc.gg/codexdev'
   VOTE: 'https://top.gg/bot/0000000/vote'
